@@ -1,2 +1,2 @@
 # techdegree-project-2
- Mobile-first responsive layout
+ Mobile-first responsive layout project by Heewon Song
