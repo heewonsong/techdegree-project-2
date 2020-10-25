@@ -89,12 +89,20 @@ footer {
 
 .contact-info li {
     padding-bottom: 10px;
+    font-weight: 400;
 }
 
 .bottom-nav {
     border-top: 1px solid lightgrey;
     padding-top: 25px;
     padding-bottom: 25px;
+    width: 95%;
+    margin: 0 auto;
+} 
+
+.student-name {
+    float: left;ß
+    margin: 0 auto;
 }
 
 
@@ -161,6 +169,10 @@ footer {
         float: right;
     } */
 
+    .main-nav {
+        display: inline-block;
+    }
+
     header img{
         float: right;
     } 
@@ -177,6 +189,32 @@ footer {
         margin: 0 auto;
     }
 
+    .Portfolio-2,
+    .Portfolio-5 {
+        width: 31%;
+        float: right;
+    }
+
+    .Portfolio-1,
+    .Portfolio-4 {
+        width: 31%;
+        float: left;
+    }
+
+    .Portfolio-3,
+    .Portfolio-6 {
+        width: 31%;
+        float: right;
+    }
+
+    .Portfolio .group {
+        
+    }
+
+
+    /* .Portfolio .group {
+        width: 31%;
+    } */
 
     .group:after {
         content: "";
