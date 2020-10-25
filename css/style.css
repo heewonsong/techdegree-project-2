@@ -1,0 +1,186 @@
+/* ================================= 
+  Base Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    background: #fafafa;
+    color: #4a4a4a;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+/* Link Styles */
+
+a {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+.bottom-nav li{
+    display: inline;
+} 
+
+a:hover {
+    color: black;
+}
+
+/* Section Styles */
+
+ul {
+    list-style-type: none;
+    font-weight: 600;
+}
+
+.main-nav li {
+
+}
+
+.main-header, footer {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header {
+    padding-bottom: 20px;
+}
+
+
+h2 {
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.Portfolio {
+    text-align: center;
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+p {
+    font-weight: 300;
+}
+
+img {
+    max-width: 100%;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+.contact-info {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.contact-info li {
+    padding-bottom: 10px;
+}
+
+.bottom-nav {
+    border-top: 1px solid lightgrey;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (max-width: 320px) {
+    .main-nav li {
+        background-color: white;
+        padding: 10px 0;
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+
+    .main-nav li {
+        display: inline;
+        padding: 0 20px;
+    }
+
+    .Portfolio-2,
+    .Portfolio-4,
+    .Portfolio-6 {
+        width: 46.5%;
+        float: right;
+    }
+
+    .Portfolio-1,
+    .Portfolio-3,
+    .Portfolio-5 {
+        width: 46.5%;
+        float: left;
+    }
+
+    header img{
+        float: right;
+    } 
+
+    header p {
+        text-align: left;
+        padding-top: 30px; 
+    }
+
+    .group:after {
+        content: "";
+        display: table;
+        clear: both;
+    } 
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* .Portfolio-3,
+    .Portfolio-6 {
+        width: 31%;
+        float: right;
+    }
+
+    .Portfolio-1,
+    .Portfolio-4 {
+        width: 31%;
+        float: right;
+    } */
+
+    header img{
+        float: right;
+    } 
+
+    header p {
+        text-align: left;
+        padding-top: 30px;
+        padding-right: 30px; 
+    }
+
+    header,
+    .Portfolio {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+
+    .group:after {
+        content: "";
+        display: table;
+        clear: both;
+    } 
+}
